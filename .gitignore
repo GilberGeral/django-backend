@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Django migrations (a veces sí se versionan, depende del equipo)
+**/migrations/
+!**/migrations/__init__.py
+
+# SQLite database (si usas SQLite local)
+db.sqlite3
+
+# Logs
+*.log
+
+# Static files (si generas con collectstatic, no subas el build)
+staticfiles/
+static/
+
+# Media uploads (archivos subidos en producción o local)
+media/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuraciones sensibles o locales
+*.env
+.env
